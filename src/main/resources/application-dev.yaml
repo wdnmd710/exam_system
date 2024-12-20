@@ -1,0 +1,17 @@
+#开发环境
+server:
+  ip: localhost
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3300/exam_system?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: gty20020417
+
+files:
+  uploads:
+    # 相对地址，在项目根目录下
+    path: uploads/
+    # 无法访问可以将地址改为绝对地址
+    #path: D:/uploads/
