@@ -1,10 +1,5 @@
 package com.project.template.dto;
-//修改位置
-//
-//
-//!!!!!
 
-//???????
 import lombok.Data;
 
 import java.nio.file.Path;
@@ -14,7 +9,6 @@ import java.nio.file.Paths;
 public class FileInfoDTO {
 
     private String server;
-    private int ceshi;
     private String key;
     private String bucket;
     private String alt;
