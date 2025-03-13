@@ -14,6 +14,7 @@ import java.nio.file.Paths;
 public class FileInfoDTO {
 
     private String server;
+    private int ceshi;
     private String key;
     private String bucket;
     private String alt;
